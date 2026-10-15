@@ -18,18 +18,6 @@ There is no installation, account, or build step. The Google Fonts import improv
 
 To try a change, edit a part name, price, or description in the `parts` object near the top of `script.js`, save, and refresh the page. Prices are learning examples, not current store listings. The compatibility check is intentionally basic: a real build also needs a matching motherboard, case, power supply, and cooling, and should be checked against manufacturer specifications before buying.
 
-## Publish free with GitHub Pages
-
-1. Sign in to [GitHub](https://github.com/) and create a new **public** repository, such as `buildlab-pc-builder`.
-2. Add the contents of this folder to the repository's top level. Make sure `index.html`, `styles.css`, and `script.js` are at the top level, not hidden inside an extra folder.
-   - On GitHub, choose **Add file → Upload files**, drag in the three website files, and also include this README.
-   - Enter a short commit message such as `Add BuildLab website`, then choose **Commit changes**.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**. Select the `main` branch and the `/ (root)` folder, then save.
-5. Wait for GitHub Pages to finish publishing. The Pages panel will show the site address, usually `https://YOUR-USERNAME.github.io/buildlab-pc-builder/`.
-6. Open that address and try the component menus. To make changes later, edit the files on GitHub and commit the changes; Pages republishes the site.
-
-If you prefer, GitHub Desktop can publish the folder: create a repository from the project folder, commit the files, publish the repository, and then follow steps 3–6.
 
 ## Good next improvements
 
